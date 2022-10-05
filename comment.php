@@ -5,6 +5,5 @@
 
 <?php
 
-
 echo "<p>Temps Unix de la page</p>";
 ?>
