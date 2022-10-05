@@ -30,15 +30,15 @@
     $6-repos = 77;<!--pas bon-->
     $bon-homme = true;<!--pas bon-->
     $lkhjfgt5468sd58757 = 677;<!--bon-->
-    $mabapta = $lulu;<!--pas bon-->
+    $mabapta = $lulu;<!--bon-->
 </pre>
     <hr>
     <?php
-
+    $lulu = 5;
 
     $mabapta = $lulu;
     echo '$mabapta = $lulu;';
-    echo "$mabapta <br>"
+    echo "$mabapta <br>";
 
 
 
