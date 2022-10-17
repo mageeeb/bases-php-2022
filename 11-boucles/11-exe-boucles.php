@@ -66,6 +66,19 @@ $nb3 = 100;
     <h4>Exe 5 </h4>
     <p>faites une boucle allant de $nb3 à $nb1 en diminuant la valeur de 3 (100, 97, 94 etc...) séparés par des virgules</p>
     <?php
+     foreach($stagiaires as $val){
+        echo "$val   | ";
+     }
+
+     
+
+     foreach ($stagiaires as $key => $val){
+        echo $key . "->" . $val . "  | " ;
+     }
+
+
+
+     sort($stagiaires)
     ?>
 </body>
 </html>
