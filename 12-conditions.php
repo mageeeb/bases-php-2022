@@ -49,7 +49,7 @@ if($temp <= -10){
     echo "Il fait froid dehors.";
 }elseif($temp <=12){
     echo "Il fait frisquet.";
-// dans les autres cas (default)    
+// dans les autres cas (default)  
 }else{
     echo "Il fait agréable dehors.";
 }
