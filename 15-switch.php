@@ -3,7 +3,7 @@
 <p>Désavantage : plus lent, parfois moins lisible</p>
 <?php
 
-$a = mt_rand(1,5);
+/*$a = mt_rand(1,5);
 
 if($a===1){
     echo "$a - premier";
@@ -17,14 +17,14 @@ if($a===1){
     echo "$a - cinquième";
 }else{
     echo "$a - Erreur";
-}
+}*/
 ?>
 <h3>Avec un switch</h3>
 <p>Avantage : vitesse fortement augmentée</p>
 <p>Désavantages : ne vérifie que l'égalité non stricte, et qu'une variable à la fois</p>
 <?php
 // on vérifie la valeur de $a de manière non stricte (la valeur mais pas le type) comme ==
-switch($a){
+/*switch($a){
     // si ça vaut 1 (non strictement => "1" | 1 | true)
     case "1":
         echo "$a - premier";
@@ -43,13 +43,13 @@ switch($a){
     break;
     default:
         echo "$a - Erreur";
-}
+}*/
 ?>
 <p>Equivalence des && avec switch</p>
 <?php
 $temp= mt_rand(-5,5);
 
-switch($temp){
+/*switch($temp){
     case -5:
     case -4:   
     case -3:
@@ -60,7 +60,7 @@ switch($temp){
         break;
     default:
         echo "L'eau est liquide à {$temp}°";
-}
+}*/
 echo "<hr>";
 if($temp<=0):
     echo "Il gèle à {$temp}°";
