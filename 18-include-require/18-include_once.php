@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>include_once</h1>
-    <p>include_once() est une fonction qui va permettre d'importer n'importe quoi (en général un autre fichier PHP), 1 seule fois, l'intéret étant d'éviter des chargements multiples non-nécessaires et sans erreur grave en cas d'échec</p>
+    <p>include_once() est une fonction qui va permettre d'importer n'importe quoi 
+        (en général un autre fichier PHP), 1 seule fois, l'intéret étant d'éviter 
+        des chargements multiples non-nécessaires et sans erreur grave en cas d'échec</p>
     <?php
     // appel le footer
     include_once "18-footer-1.php"; 
